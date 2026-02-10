@@ -15,7 +15,7 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o saldo da conta: ");
         double saldoConta = sc.nextDouble();
     
-        System.out.println("Parabéns " + nomeTitular + ", sua conta foi criada com sucesso!");
+        System.out.println("Parabéns " + nomeTitular + ", sua conta foi criada com sucesso!" + "sua agencia é " +numeroAgencia + ", conta " + numeroConta + "e seu saldo é R$ " + saldoConta);
     }
 
 
